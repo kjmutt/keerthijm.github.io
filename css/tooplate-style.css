@@ -209,7 +209,60 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Home section              
+  Navigation section
+-----------------------------------------*/
+
+.navbar-custom {
+  background: rgba(0, 0, 0, 0.55);
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: auto;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: #f0f0f0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #7682cc;
+  background: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+  border-color: #f0f0f0;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background: #f0f0f0;
+}
+
+.navbar-custom .navbar-collapse {
+  background: rgba(0, 0, 0, 0.85);
+  border: none;
+}
+
+.home-thumb {
+  margin-top: 50px;
+}
+
+
+
+/*---------------------------------------
+  Home section
 -----------------------------------------*/
 
 #home {
